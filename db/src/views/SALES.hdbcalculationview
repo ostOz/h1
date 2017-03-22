@@ -123,7 +123,15 @@
       <measureMapping columnObjectName="Join_2" columnName="NET_AMOUNT"/>
     </measure>
   </baseMeasures>
-  <calculatedMeasures/>
+  <calculatedMeasures>
+    <measure id="DOC_COUNT" hidden="false" order="7" aggregationType="sum" measureType="simple" calculatedMeasureType="counter" aggregatable="true" datatype="INTEGER">
+      <descriptions defaultDescription="DOC_COUNT"/>
+      <exceptionAggregation>
+        <attribute attributeName="SO_ID"/>
+      </exceptionAggregation>
+      <formula>1</formula>
+      </measure>
+  </calculatedMeasures>
   <restrictedMeasures/>
   <localDimensions/></logicalModel>
 <layout>

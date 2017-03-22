@@ -131,6 +131,10 @@
       </exceptionAggregation>
       <formula>1</formula>
       </measure>
+    <measure id="NET_AMOUNT_GST_INCL" hidden="false" order="8" aggregationType="sum" measureType="simple" datatype="DECIMAL" length="15" scale="2" expressionLanguage="SQL">
+      <descriptions defaultDescription="NET_AMOUNT_GST_INCL"/>
+      <formula>&quot;NET_AMOUNT&quot;*1.1</formula>
+      </measure>
   </calculatedMeasures>
   <restrictedMeasures/>
   <localDimensions/></logicalModel>
